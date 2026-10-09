@@ -1,0 +1,12 @@
+{
+  "mode": "simulator",
+  "port": 3000,
+  "simSpeed": 1,
+  "glove": { "min": 15, "max": 120, "tolerance": 0.4, "window": 5, "capacity": 6000 },
+  "scales": {
+    "good-right":   { "label": "Good, right",    "kind": "good",   "hand": "right", "host": "192.168.1.101", "port": 4001 },
+    "good-left":    { "label": "Good, left",     "kind": "good",   "hand": "left",  "host": "192.168.1.102", "port": 4001 },
+    "reject-right": { "label": "Rejected, right","kind": "reject", "hand": "right", "host": "192.168.1.103", "port": 4001 },
+    "reject-left":  { "label": "Rejected, left", "kind": "reject", "hand": "left",  "host": "192.168.1.104", "port": 4001 }
+  }
+}

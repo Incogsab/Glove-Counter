@@ -1,0 +1,8 @@
+{
+  "name": "glove-counter",
+  "version": "1.0.0",
+  "description": "4-bin glove counter: good/rejected x left/right, reading Ethernet weighing indicators",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
